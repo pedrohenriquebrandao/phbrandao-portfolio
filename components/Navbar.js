@@ -92,10 +92,11 @@ function Navbar() {
 								ref={ref}
 								className="bg-white w-full"
 							>
-								<div className=" inline-flex items-center px-3 py-2 ml-8 gap-1 rounded px-4 py-2 leading-5 text-primary-100 ">
+								<div className=" inline-flex items-center px-3 py-2 ml-5 gap-1 rounded px-2 py-2 leading-5 text-primary-100 ">
 								<MdOutlineMail className="text-gray-400" size={25}/> <p className="text-gray-400">phbrandao@outlook.com</p>
 								<a href="cv_pedro.pdf" className="inline-flex text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 mb-0 ml-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									<BsDownload className="mr-3" size={20}/>
+									<BsDownload className="mr-3" size={20}/> 
+									<br/>
 									<p className="text-sm uppercase text-gray-200">Download CV</p>
 								</a>
 							</div>
