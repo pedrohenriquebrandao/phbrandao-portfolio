@@ -14,7 +14,7 @@ function clients() {
 	return (
 		<Element id="Clients" name="Clients">
 			<div>
-				<div className="my-20 h-auto flex flex-col justify-center items-center">
+				<div className="w-full my-20 h-auto flex flex-col justify-center items-center">
 					<p className="text-sm uppercase text-gray-400">Minha experiência</p>
 					<h1 className="text-indigo-500 text-5xl font-bold text-center">
 						Tecnologias
