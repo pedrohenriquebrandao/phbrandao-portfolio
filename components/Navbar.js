@@ -1,82 +1,33 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { Link } from "react-scroll";
-import Image from "next/image";
+import {MdOutlineMail} from "react-icons/md";
+import {BsDownload} from "react-icons/bs";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
-			<nav className=" fixed z-20 bg-white w-full">
+			<nav className="fixed z-20 bg-gray-900 w-full">
 				<div className="w-full">
-					<div className="flex items-center h-20 w-full ">
+					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold text-xl cursor-pointer">
-									Stream<span className="text-blue-500">line</span>
+								<h1 className="ml-8 font-light text-xl cursor-pointer text-gray-400">
+								{`<`}Pedro <span className="text-blue-500 font-bold">Brandão{` />`}</span>
 								</h1>
 							</div>
-							<div className="hidden md:block">
-								<div className="ml-10 flex items-baseline space-x-4">
-									<Link
-										activeClass="Home"
-										to="home"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer text-blue-600 px-3 py-2 text-md"
-									>
-										Home
-									</Link>
-									<Link
-										activeClass="services"
-										to="services"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black  px-3 py-2"
-									>
-										Services
-									</Link>
-									<Link
-										activeClass="work"
-										to="work"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black px-3 py-2"
-									>
-										Projects
-									</Link>
-
-									<Link
-										activeClass="Clients"
-										to="Clients"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black px-3 py-2"
-									>
-										Clients
-									</Link>
-
-									<Link
-										activeClass="contact"
-										to="contact"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black px-3 py-2"
-									>
-										Contact
-									</Link>
+							
+							<div className="flex justify-center items-center flex-shrink-1">
+								<div className="cursor-pointer hidden md:block">
+								<div className="inline-flex items-center px-3 py-2 mr-1 gap-1 rounded px-4 py-2 leading-5 text-primary-100 ">
+								<MdOutlineMail className="text-gray-400" size={25}/> <p className="text-gray-400">phbrandao@outlook.com</p>
+								<a href="cv_pedro.pdf" className="inline-flex text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 mb-0 ml-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									<BsDownload className="mr-3" size={20}/>
+									<p className="text-sm uppercase text-gray-200">Download CV</p>
+								</a>
+							</div>
 								</div>
-							</div>
-
-							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-semibold text-lg cursor-pointer hidden md:block">
-									Say <span className="text-blue-500">hi</span>
-								</h1>
+								
 							</div>
 						</div>
 						<div className="mr-14 flex md:hidden ">
@@ -139,77 +90,15 @@ function Navbar() {
 						<div className="md:hidden" id="mobile-menu">
 							<div
 								ref={ref}
-								className="bg-white mx-4 mr-20 pt-4 pb-4 space-y-1"
+								className="bg-white w-full"
 							>
-								<Link
-									href="/home"
-									activeClass="home"
-									to="home"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Home
-								</Link>
-								<Link
-									href="/services"
-									activeClass="services"
-									to="services"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Services
-								</Link>
-
-								<Link
-									href="/work"
-									activeClass="work"
-									to="work"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Projects
-								</Link>
-								<Link
-									href="/Clients"
-									activeClass="Clients"
-									to="Clients"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Clients
-								</Link>
-
-								<Link
-									href="/contact"
-									activeClass="contact"
-									to="contact"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Contact
-								</Link>
-
-								<Link
-									href="/hi"
-									activeClass="hi"
-									to="hi"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Say<span className="text-black">hi</span>
-								</Link>
+								<div className=" inline-flex items-center px-3 py-2 ml-8 gap-1 rounded px-4 py-2 leading-5 text-primary-100 ">
+								<MdOutlineMail className="text-gray-400" size={25}/> <p className="text-gray-400">phbrandao@outlook.com</p>
+								<a href="cv_pedro.pdf" className="inline-flex text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 mb-0 ml-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									<BsDownload className="mr-3" size={20}/>
+									<p className="text-sm uppercase text-gray-200">Download CV</p>
+								</a>
+							</div>
 							</div>
 						</div>
 					)}
