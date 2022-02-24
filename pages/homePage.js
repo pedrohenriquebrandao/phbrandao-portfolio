@@ -7,7 +7,6 @@ import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiSpotify } from "react-icons/si";
 
-
 function Home() {
 	return (
 		<Element id="home" name="home">
@@ -45,6 +44,7 @@ function Home() {
 						</a>
 						</div>
 						
+
 						
 					</div>
 				</div>

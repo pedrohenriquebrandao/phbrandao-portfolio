@@ -10,6 +10,8 @@ import { SiMysql } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { Element } from "react-scroll";
 
+import ReactTooltip from 'react-tooltip';
+
 function clients() {
 	return (
 		<Element id="Clients" name="Clients">
@@ -21,36 +23,55 @@ function clients() {
 					</h1>
 					
 					<div className="grid grid-rows-2 grid-flow-col gap-4 justify-between text-center mx-20 my-10 md:gap-10 gap-2">
-						<div title="This is my tooltip" className="flex justify-center items-center cursor-pointer" >
+						<div data-for='html5-tooltip' data-tip='HTML5' className="flex justify-center items-center cursor-pointer" >
 							<SiHtml5 className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='html5-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+						
+						<div data-for='css3-tooltip' data-tip='CSS3' className="flex justify-center items-center cursor-pointer">
 							<SiCss3 className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='css3-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='javascript-tooltip' data-tip='Javascript' className="flex justify-center items-center cursor-pointer">
 							<SiJavascript className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='javascript-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='java-tooltip' data-tip='Java' className="flex justify-center items-center cursor-pointer">
 							<SiJava className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='java-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='php-tooltip' data-tip='PHP' className="flex justify-center items-center cursor-pointer">
 							<SiPhp className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='php-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='python-tooltip' data-tip='Python' className="flex justify-center items-center cursor-pointer">
 							<SiPython className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='python-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='react-tooltip' data-tip='React' className="flex justify-center items-center cursor-pointer">
 							<SiReact className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='react-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='laravel-tooltip' data-tip='Laravel' className="flex justify-center items-center cursor-pointer">
 							<SiLaravel className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='laravel-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='nodejs-tooltip' data-tip='Node.js' className="flex justify-center items-center cursor-pointer">
 							<SiNodedotjs className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
-						<div className="flex justify-center items-center cursor-pointer">
+						<ReactTooltip id='nodejs-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+
+						<div data-for='mysql-tooltip' data-tip='MySQL' className="flex justify-center items-center cursor-pointer">
 							<SiMysql className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 						</div>
+						<ReactTooltip id='mysql-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
 					</div>
 				</div>
 			</div>
