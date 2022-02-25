@@ -30,16 +30,16 @@ function Home() {
 						</p>
 						
 						<div className="inline-flex">
-						<a href="https://www.instagram.com/pedro.brnd_/" className="flex justify-center items-center cursor-pointer" >
+						<a target="_blank" href="https://www.instagram.com/pedro.brnd_/" className="flex justify-center items-center cursor-pointer" rel="noreferrer" >
 							<SiInstagram size={50} className=" text-gray-400 md:m-3 p-1 hover:text-rose-400" />
 						</a>
-						<a href="https://www.linkedin.com/in/pedrohenriquebrandao/" className="flex justify-center items-center cursor-pointer">
+						<a target="_blank" href="https://www.linkedin.com/in/pedrohenriquebrandao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
 							<SiLinkedin size={50} className="  text-gray-400 md:m-3 p-1 hover:text-blue-500" />
 						</a>
-						<a href="https://github.com/pedrohenriquebrandao" className="flex justify-center items-center cursor-pointer">
+						<a target="_blank" href="https://github.com/pedrohenriquebrandao" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
 							<SiGithub size={50} className="  text-gray-400 md:m-3 p-1 hover:text-gray-200" />
 						</a>
-						<a href="https://open.spotify.com/user/12167099723?si=006361058c934503" className="flex justify-center items-center cursor-pointer">
+						<a target="_blank" href="https://open.spotify.com/user/12167099723?si=006361058c934503" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
 							<SiSpotify size={50} className="  text-gray-400 md:m-3 p-1 hover:text-green-400" />
 						</a>
 						</div>
