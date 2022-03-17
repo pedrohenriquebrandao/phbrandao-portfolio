@@ -1,4 +1,5 @@
 import { AiFillThunderbolt } from "react-icons/ai";
+import { SiNextdotjs } from "react-icons/si";
 
 function Footer() {
 	return (
