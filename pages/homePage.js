@@ -6,6 +6,7 @@ import { SiInstagram } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiSpotify } from "react-icons/si";
+import { FaDiscord } from 'react-icons/fa';
 
 function Home() {
 	return (
@@ -42,10 +43,10 @@ function Home() {
 						<a target="_blank" href="https://open.spotify.com/user/12167099723?si=006361058c934503" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
 							<SiSpotify size={50} className="  text-gray-400 md:m-3 p-1 hover:text-green-400" />
 						</a>
-						</div>
-						
-
-						
+						<a target="_blank" href="https://discordapp.com/users/394911891337773066" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
+							<FaDiscord size={50} className="  text-gray-400 md:m-3 p-1 hover:text-indigo-400" />
+						</a>
+						</div>	
 					</div>
 				</div>
 			</div>
