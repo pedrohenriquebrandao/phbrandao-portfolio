@@ -21,11 +21,13 @@ function clients() {
 				<h1 className="text-indigo-500 text-5xl font-bold text-center">
 					Tecnologias
 				</h1>
-			<div className="flex justify-items-start items-center mx-40 gap-10 mt-10">
-  				<a href="https://github.com/rafaballerini" className="flex items-start space-x-5">
-					<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedrohenriquebrandao&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  					<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrohenriquebrandao&layout=compact&langs_count=7&theme=tokyonight"/>
+			<div className="p-5 mt-10">
+  				<a href="https://github.com/pedrohenriquebrandao" className="flex items-start mb-4">
+					<img className="w-full" src="https://github-readme-stats.vercel.app/api?username=pedrohenriquebrandao&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
 	  			</a>
+				<a href="https://github.com/pedrohenriquebrandao" className="flex items-start">
+				  <img className="w-full" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrohenriquebrandao&layout=compact&langs_count=7&theme=tokyonight"/>
+				</a>
 			</div>
 				
 			<div className="grid grid-rows-2 grid-flow-col gap-4 justify-between text-center mx-20 my-10 md:gap-10 gap-2">
