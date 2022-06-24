@@ -21,7 +21,7 @@ export default function Home() {
 			<Navbar />
 			<HomePage />
 			<Clients />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

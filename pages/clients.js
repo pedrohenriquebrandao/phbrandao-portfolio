@@ -30,7 +30,7 @@ function clients() {
 				</a>
 			</div>
 				
-			<div className="grid grid-rows-2 grid-flow-col gap-4 justify-between text-center mx-20 my-10 md:gap-10 gap-2">
+			<div className="grid grid-rows-2 grid-flow-col gap-2 justify-between text-center mx-20 my-10 md:gap-10">
 				<div data-for='html5-tooltip' data-tip='HTML5' className="flex justify-center items-center cursor-pointer" >
 					<SiHtml5 className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
 				</div>
