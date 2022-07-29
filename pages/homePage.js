@@ -31,7 +31,7 @@ function Home() {
 						</p>
 						
 						<div className="inline-flex">
-						<a target="_blank" href="https://www.instagram.com/pedro.brnd_/" className="flex justify-center items-center cursor-pointer" rel="noreferrer" >
+						<a target="_blank" href="https://www.instagram.com/ph.brndao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer" >
 							<SiInstagram size={50} className=" text-gray-400 md:m-3 p-1 hover:text-rose-400" />
 						</a>
 						<a target="_blank" href="https://www.linkedin.com/in/pedrohenriquebrandao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
