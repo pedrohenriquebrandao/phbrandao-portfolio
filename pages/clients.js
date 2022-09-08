@@ -8,6 +8,8 @@ import { SiReact } from "react-icons/si";
 import { SiLaravel } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+import { SiVuedotjs } from "react-icons/si";
 import { Element } from "react-scroll";
 
 import ReactTooltip from 'react-tooltip';
@@ -80,6 +82,16 @@ function clients() {
 					<SiMysql className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
 				</div>
 				<ReactTooltip id='mysql-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+				
+				<div data-for='docker-tooltip' data-tip='Docker' className="flex justify-center items-center cursor-pointer">
+					<SiDocker className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
+				</div>
+				<ReactTooltip id='docker-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
+				
+				<div data-for='vue-tooltip' data-tip='Vue.js' className="flex justify-center items-center cursor-pointer">
+					<SiVuedotjs className="md:w-20 md:h-20 w-16 h-16 text-gray-400 md:m-3 p-1 hover:text-black" />
+				</div>
+				<ReactTooltip id='vue-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom"/>
 			</div>
 		</div>
 	</div>
