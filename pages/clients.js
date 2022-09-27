@@ -19,9 +19,9 @@ function clients() {
 		<Element id="Clients" name="Clients">
 		<div>
 			<div className="w-full my-20 h-auto flex flex-col justify-center items-center">
-				<p className="text-sm uppercase text-gray-400">Minha experiência</p>
-				<h1 className="text-indigo-500 text-5xl font-bold text-center">
-					Tecnologias
+				<p className="text-sm uppercase text-gray-400">My experience</p>
+				<h1 className="text-indigo-400 text-5xl font-bold text-center">
+					Technologies
 				</h1>
 			<div className="p-5 mt-10">
   				<a href="https://github.com/pedrohenriquebrandao" className="flex items-start mb-4">

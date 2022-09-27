@@ -13,7 +13,7 @@ function Navbar() {
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<h1 className="ml-8 font-light text-xl cursor-pointer text-gray-400">
-								{`<`}Pedro <span className="text-blue-500 font-bold">Brandão{` />`}</span>
+								{`<`}Pedro <span className="text-indigo-500 font-bold">Brandão{` />`}</span>
 								</h1>
 							</div>
 							
@@ -21,7 +21,7 @@ function Navbar() {
 								<div className="cursor-pointer hidden md:block">
 								<div className="inline-flex items-center px-3 py-2 mr-1 gap-1 rounded px-4 py-2 leading-5 text-primary-100 ">
 								<MdOutlineMail className="text-gray-400" size={25}/> <p className="text-gray-400">phbrandao@outlook.com</p>
-								<a target="_blank" href="cv_pedro.pdf" className="inline-flex text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 mb-0 ml-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+								<a target="_blank" href="cv_pedro.pdf" className="inline-flex text-white bg-indigo-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 mb-0 ml-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 									<BsDownload className="mr-3" size={20}/>
 									<p className="text-sm uppercase text-gray-200">Download CV</p>
 								</a>

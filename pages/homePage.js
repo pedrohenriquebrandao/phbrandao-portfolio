@@ -24,10 +24,10 @@ function Home() {
 					</div>
 					<div className="flex flex-col md:ml-20 mx-20 mt-10">
 						<h1 className="font-bold text-gray-400 text-7xl text-left mb-5">
-							Olá, eu sou <span className="text-indigo-500">Pedro</span>
+							Hello, I'm <span className="text-indigo-400">Pedro</span>
 						</h1>
 						<p className="text-gray-400 text-2xl text-left mb-5">
-							<h1>Desenvolvedor Fullstack</h1>
+							<h1>Fullstack Developer</h1>
 						</p>
 						
 						<div className="inline-flex">
