@@ -6,7 +6,7 @@ import { SiInstagram } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiSpotify } from "react-icons/si";
-import { FaDiscord } from 'react-icons/fa';
+import { FaDiscord } from "react-icons/fa";
 
 function Home() {
 	return (
