@@ -24,7 +24,7 @@ function Home() {
 					</div>
 					<div className="flex flex-col md:ml-20 mx-20 mt-10">
 						<h1 className="font-bold text-gray-400 text-7xl text-left mb-5">
-							Hello, I'm <span className="text-indigo-400">Pedro</span>
+							Hello, I&#39;m <span className="text-indigo-400">Pedro</span>
 						</h1>
 						<p className="text-gray-400 text-2xl text-left mb-5">
 							<h1>Fullstack Developer</h1>
