@@ -14,9 +14,9 @@ import { Element } from "react-scroll";
 
 import ReactTooltip from 'react-tooltip';
 
-function clients() {
+function Experience() {
 	return (
-		<Element id="Clients" name="Clients">
+		<Element id="Experience" name="Experience">
 		<div>
 			<div className="w-full my-20 h-auto flex flex-col justify-center items-center">
 				<p className="text-sm uppercase text-gray-400">My experience</p>
@@ -99,4 +99,4 @@ function clients() {
 	);
 }
 
-export default clients;
+export default Experience;
