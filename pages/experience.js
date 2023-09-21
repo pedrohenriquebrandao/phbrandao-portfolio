@@ -97,7 +97,7 @@ function Experience() {
 				<div className="w-full p-8">
 					<div className="w-full flex gap-4 overflow-x-auto border border-indigo-400 p-8">
 						<div>
-							<p className="text-xl text-gray-400">
+							<p className="text-xl text-gray-400 pb-2">
 								Brandão & Tanan Advocacia
 							</p>
 							<div className="">
