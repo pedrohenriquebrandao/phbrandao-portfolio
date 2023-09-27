@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { SiCss3, SiDocker, SiHtml5, SiJava, SiJavascript, SiLaravel, SiMysql, SiNodedotjs, SiPhp, SiPython, SiReact, SiVuedotjs } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { SiCss3, SiDocker, SiHtml5, SiJavascript, SiLaravel, SiMysql, SiNodedotjs, SiPhp, SiPython, SiReact, SiVuedotjs } from "react-icons/si";
 import { Element } from "react-scroll";
 import ReactTooltip from 'react-tooltip';
 import website1 from "../public/images/brandaoetanan.png";
@@ -40,7 +41,7 @@ function Experience() {
 							<ReactTooltip id='javascript-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom" />
 
 							<div data-for='java-tooltip' data-tip='Java' className="flex justify-center items-center cursor-pointer">
-								<SiJava className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
+								<FaJava className="md:w-20 md:h-20 w-16 h-16  text-gray-400 md:m-3 p-1 hover:text-black" />
 							</div>
 							<ReactTooltip id='java-tooltip' textColor='white' backgroundColor='#4f46e5' place="bottom" />
 
