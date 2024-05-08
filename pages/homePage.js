@@ -28,25 +28,26 @@ function Home() {
 						</h1>
 						<p className="text-gray-400 text-2xl text-left mb-5">
 							<h1>Fullstack Developer</h1>
+							<p className="text-sm uppercase text-gray-400 mt-2"> PHP | LARAVEL | MYSQL</p>
 						</p>
-						
+
 						<div className="inline-flex">
-						<a target="_blank" href="https://www.instagram.com/ph.brndao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer" >
-							<SiInstagram size={50} className=" text-gray-400 md:m-3 p-1 hover:text-rose-400" />
-						</a>
-						<a target="_blank" href="https://www.linkedin.com/in/pedrohenriquebrandao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
-							<SiLinkedin size={50} className="  text-gray-400 md:m-3 p-1 hover:text-blue-500" />
-						</a>
-						<a target="_blank" href="https://github.com/pedrohenriquebrandao" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
-							<SiGithub size={50} className="  text-gray-400 md:m-3 p-1 hover:text-gray-200" />
-						</a>
-						<a target="_blank" href="https://open.spotify.com/user/12167099723?si=006361058c934503" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
-							<SiSpotify size={50} className="  text-gray-400 md:m-3 p-1 hover:text-green-400" />
-						</a>
-						<a target="_blank" href="https://discordapp.com/users/394911891337773066" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
-							<FaDiscord size={50} className="  text-gray-400 md:m-3 p-1 hover:text-indigo-400" />
-						</a>
-						</div>	
+							<a target="_blank" href="https://www.instagram.com/ph.brndao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer" >
+								<SiInstagram size={50} className=" text-gray-400 md:m-3 p-1 hover:text-rose-400" />
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/in/pedrohenriquebrandao/" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
+								<SiLinkedin size={50} className="  text-gray-400 md:m-3 p-1 hover:text-blue-500" />
+							</a>
+							<a target="_blank" href="https://github.com/pedrohenriquebrandao" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
+								<SiGithub size={50} className="  text-gray-400 md:m-3 p-1 hover:text-gray-200" />
+							</a>
+							<a target="_blank" href="https://open.spotify.com/user/12167099723?si=006361058c934503" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
+								<SiSpotify size={50} className="  text-gray-400 md:m-3 p-1 hover:text-green-400" />
+							</a>
+							<a target="_blank" href="https://discordapp.com/users/394911891337773066" className="flex justify-center items-center cursor-pointer" rel="noreferrer">
+								<FaDiscord size={50} className="  text-gray-400 md:m-3 p-1 hover:text-indigo-400" />
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
