@@ -11,7 +11,7 @@ function Experience() {
 			<Element id="Experience" name="Experience">
 				<div>
 					<div className="w-full my-20 h-auto flex flex-col justify-center items-center">
-						<p className="text-sm uppercase text-gray-400">My experience</p>
+						<p className="text-sm uppercase text-gray-400">My experience and my stack</p>
 						<h1 className="text-indigo-400 text-5xl font-bold text-center">
 							Technologies
 						</h1>
