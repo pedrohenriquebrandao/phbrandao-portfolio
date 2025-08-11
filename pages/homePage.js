@@ -27,7 +27,7 @@ function Home() {
 							Hello, I&#39;m <span className="text-indigo-400">Pedro</span>
 						</h1>
 						<p className="text-gray-400 text-2xl text-left mb-5">
-							<h1>Fullstack Developer</h1>
+							<h1>Computer Engineer</h1>
 							<p className="text-sm uppercase text-gray-400 mt-2"> PHP | LARAVEL | MYSQL | JAVASCRIPT</p>
 						</p>
 

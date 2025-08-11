@@ -88,7 +88,7 @@ function Experience() {
 					</div>
 				</div>
 			</Element>
-			<Element id="Portfolio" name="Portfolio">
+			{/* <Element id="Portfolio" name="Portfolio">
 				<div className="w-full my-10 h-auto flex flex-col justify-center items-center">
 					<p className="text-sm uppercase text-gray-400">Some of my projects</p>
 					<h1 className="text-indigo-400 text-5xl font-bold text-center">
@@ -123,10 +123,10 @@ function Experience() {
 									/>
 								</a>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</div>
-			</Element>
+			</Element> */}
 		</div>
 	);
 }
