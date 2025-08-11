@@ -28,7 +28,7 @@ function Home() {
 						</h1>
 						<p className="text-gray-400 text-2xl text-left mb-5">
 							<h1>Computer Engineer</h1>
-							<p className="text-sm uppercase text-gray-400 mt-2"> PHP | LARAVEL | MYSQL | JAVASCRIPT</p>
+							<p className="text-sm uppercase text-gray-400 mt-2"> Fullstack Developer | PHP | LARAVEL | MYSQL | JAVASCRIPT</p>
 						</p>
 
 						<div className="inline-flex">
